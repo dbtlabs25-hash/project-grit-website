@@ -55,3 +55,8 @@ Home: mission statement, Founding count, app screenshots, patch, coin, founder p
 - Reduced-motion preference respected.
 - Keyboard focus/skip link included.
 - Lighthouse scores require running against the deployed build and are not fabricated here.
+
+## Verified deployment package
+Use Node.js 24.x and the included package-lock.json. Dependency versions are pinned. Build command: `npm run build`; output directory: leave Vercel's Next.js default. The project files belong at the repository root.
+
+This package preserves the supplied draft design and content. Checkout URLs, real form endpoint, founder content, legal text, meetup details, and production domain still require founder-provided values. Until configured, /join takes visitors to homepage pricing and signup displays a coming-soon message without claiming to save their details. Replace example.com in robots.ts and sitemap.ts before public launch. No original Pasted text requirements were included with this ZIP; verification uses the supplied source and README.

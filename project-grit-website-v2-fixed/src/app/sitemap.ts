@@ -1,1 +1,0 @@
-import type {MetadataRoute} from 'next'; export default function sitemap():MetadataRoute.Sitemap{return ['/','/events','/founders','/faq','/help','/privacy','/terms'].map(p=>({url:`https://example.com${p}`}))}

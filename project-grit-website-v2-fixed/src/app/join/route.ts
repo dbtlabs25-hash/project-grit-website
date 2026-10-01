@@ -1,1 +1,0 @@
-import {NextResponse} from 'next/server'; import {site} from '@/config/site'; export function GET(req:Request){return NextResponse.redirect(new URL(site.join.default,new URL(req.url).origin))}

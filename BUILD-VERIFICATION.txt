@@ -1,0 +1,9 @@
+Project Grit verification — October 1, 2026
+Input: project-grit-website-v1 (2).zip
+Reproduced failure with Next.js 16.3.8: Tailwind was incorrectly registered as a PostCSS plugin.
+Fixed: removed unused Tailwind dependency/plugin; retained Autoprefixer; pinned package versions and added npm lockfile; selected Node 24.x; added React list keys; fixed missing skip-link target; made events render per request and omit past meetup dates; restored mobile navigation and visible keyboard focus; prevented unconfigured form from falsely claiming submission.
+npm install: successful; npm audit: zero vulnerabilities reported.
+npm run build: successful with TypeScript checks and page generation enabled.
+Production HTTP checks: all content routes, robots, sitemap, and logo return 200; join redirects to homepage #join; missing route returns 404.
+Content remains a draft: checkout, reminder endpoint, domain, legal text, founder bios/photos and event specifics are placeholders. Original Pasted text requirements were not available.
+In-app browser verification: optimized logo images loaded, homepage anchors valid, no horizontal overflow at 390px and 1440px, event page displayed upcoming dates and disabled unconfigured signup, no console errors/warnings observed.

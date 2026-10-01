@@ -1,1 +1,0 @@
-import Link from 'next/link'; export default function NotFound(){return <main className="section page"><h1>Wrong trail.</h1><p>This page isn't here.</p><div className="actions" style={{justifyContent:'flex-start'}}><Link className="btn" href="/">Go home</Link><Link className="btn alt" href="/join">Join</Link></div></main>}

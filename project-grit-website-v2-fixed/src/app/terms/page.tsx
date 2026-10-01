@@ -1,1 +1,0 @@
-export default function Terms(){return <main id="main" className="section page prose"><h1>Terms</h1><p>[LEGAL TEXT: ATTORNEY TO PROVIDE]</p></main>}
